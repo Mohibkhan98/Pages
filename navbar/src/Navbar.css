@@ -1,0 +1,101 @@
+.nav-port {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .logo-port {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .menu-port {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin-right: 130px;
+  }
+  
+  .home-menu,
+  .product-menu,
+  .blog-menu,
+  .contact-menu {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 80px;
+    
+  }
+  
+  .login-port {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+  }
+  .logo-port span{
+    font-size: xx-large;
+  }
+
+  .menu-port li {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+  }
+  
+  .menu-port li:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+  }
+  
+  .login-port{
+    height: 3rem;
+    width: 5rem;
+  }
+  
+
+  /* Default styles for all screen sizes */
+
+.nav-port {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+  }
+  
+  .menu-port li {
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .nav-port {
+      justify-content: flex-start; /* Adjust the alignment for mobile */
+      padding: 5px; /* Adjust the padding for mobile */
+    }
+    
+    .menu-port li {
+      padding: 2px; /* Adjust the padding for mobile */
+    }
+  }
+  
+  /* Media query for tablet devices */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .nav-port {
+      padding: 8px; /* Adjust the padding for tablet */
+    }
+    
+    .menu-port li {
+      padding: 4px; /* Adjust the padding for tablet */
+    }
+  }
+  
